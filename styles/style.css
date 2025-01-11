@@ -1,13 +1,17 @@
 body{
     background: rgb(245, 245, 245);
-    padding-left: 160px;
-    padding-right: 160px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     padding: 0;
     margin: 0;
+}
+header{
+    padding: 0px 160px;
+}
+main{
+    padding: 0px 160px;
 }
 .edu-au-vic-wa-nt-arrows{
     font-family: "Edu AU VIC WA NT Arrows", serif;
@@ -297,4 +301,21 @@ input::placeholder{
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 600;
+}
+footer{
+    background-color: #FFFFFF;
+    padding: 50px 160px;
+    text-align: center;
+}
+.line{
+    margin: 32px 0px;
+    width: 1122px;
+    padding: 0px 80px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
 }
