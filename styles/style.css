@@ -1,5 +1,7 @@
 body{
     background: rgb(245, 245, 245);
+    padding-left: 160px;
+    padding-right: 160px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -13,8 +15,14 @@ body{
     font-weight: 700;
     font-style: normal;
 }
+.btn-primary{
+    cursor: pointer;
+}
 .nav-contain{
-    padding: 24px 160px;
+    width: 1280px;
+    height: 100px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,5 +43,40 @@ body{
     font-size: 18px;
     font-weight: 600;
     text-align: center;
-    cursor: pointer;
+}
+.banner{
+    margin-top: 20px;
+    padding: 80px 100px;
+    height: 560px;
+    width: 1280px;
+    box-sizing: border-box;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    gap: 34px;
+    justify-content: center;
+    align-items: center;
+}
+.bang-2{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.new-bang{
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.btn-explore{
+    height: 56px;
+    width: 270px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(0, 106, 80);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
 }
