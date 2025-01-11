@@ -196,3 +196,70 @@ body{
     font-weight: 600;
     text-align: center;
 }
+.donate{
+    margin: 80px 0px;
+    width: 1280px;
+    height: 464px;
+    text-align: center;
+}
+.taka{
+    margin: 32px 140px;
+    /* padding: 0px 130px; */
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.taka-contain1{
+    width: 240px;
+    height: 128px;
+    padding: 40px 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+.taka-contain2{
+    width: 252px;
+    height: 128px;
+    padding: 40px 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+.taka-contain3{
+    width: 243px;
+}
+.taka-contain4{
+    width: 264px;
+}
+.taka-input{
+    width: 1032px;
+    height: 64px;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    text-align: center;
+}
+input::placeholder{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.3);;
+}
+.done{
+    margin: 32px 0px;
+    width: 151px;
+    height: 56px;
+    padding: 15px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+}
