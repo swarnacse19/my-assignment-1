@@ -161,6 +161,23 @@ main{
 .learn3{
     background: rgb(255, 194, 57);
 }
+.yunus{
+    height: 256px;
+    width: 1280px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 38px 24px;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+}
+.quotation{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+}
+.yu-p{
+    padding: 20px 0px;
+}
 /* recent news */
 .news{
     font-size: 40px;
